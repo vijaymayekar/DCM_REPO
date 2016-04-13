@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Install file for pfizer_administration.
+ */
+
+ /**
+ * Implements hook_install().
+ */
+function pfe_greenstone_theme_helper_install() {
+  //enable grrenstonellc theme	
+
+  if (!module_exists('greenstonellc')) {
+    /*
+	// Enable the admin theme.
+    db_update('system')
+      ->fields(array('status' => 1))
+      ->condition('type', 'theme')
+      ->condition('name', 'greenstonellc')
+      ->execute();
+	  */
+	  $theme_list = array('greenstonellc');
+	  //enable greenstonellc theme
+	  theme_enable($theme_list);
+	  //set greenstonellc theme as default theme 
+	  variable_set('theme_default', 'greenstonellc');    
+  } 
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function pfe_greenstone_theme_helper_uninstall() {
+  if (!module_exists('greenstonellc')) {
+    $theme_list = array('greenstonellc');
+    theme_disable(array('greenstonellc'));
+	variable_set('theme_default', 'bartik');    
+  }
+}

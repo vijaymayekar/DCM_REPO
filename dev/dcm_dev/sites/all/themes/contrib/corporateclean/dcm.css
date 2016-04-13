@@ -1,0 +1,117 @@
+.front #first-time, .front h1 {
+  display: none;
+}
+
+table td, table th {
+  border: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.view-id-homepage_movies  table td {
+border: 2px solid #1D2D60;
+padding: 0;
+margin: 5px;
+float: left;
+}
+
+.view-id-homepage_movies  table td:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.view-id-homepage_movies .book_ticket, .view-id-related_movies .book_ticket {
+width: 185px;
+height: 36px;
+background: #EEEEEE url(./images/bg-user.gif) no-repeat left;
+padding: 2px 0;
+display: block;
+vertical-align: central;
+}
+
+.view-id-homepage_movies .book_ticket .ticket, .view-id-related_movies .book_ticket .ticket{
+border: 0px solid #CCC;
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+width: 70px;
+display: block;
+text-align: center;
+float: left;
+line-height: 16px;
+padding: 2px 0 2px 0;
+}
+
+.view-id-homepage_movies .book_ticket p {
+display: table-cell;
+font-size: 12px;
+margin: 1px 4px;
+padding: 1px 0px 0px 6px;
+text-align: center;
+vertical-align: middle;
+width: 100px;
+color: #333;
+border: 0px solid #333;
+text-decoration: none;
+line-height: 12px;
+height: 34px;
+}
+
+.movie-holder {
+border: 1px solid #cacaca;
+font-size: 11px;
+padding: 10px;
+color: #4c4c4c;
+clear: both;
+}
+
+.movie-holder .movie-img {
+float: left;
+position: relative;
+}
+.movie-holder .movie-content {
+float: left;
+width: 400px;
+padding-left: 20px;
+margin-top: 10px;
+}
+
+.movie-holder .movie-content ul {
+margin: 0;
+padding-right: 15px;
+padding-left: 0;
+list-style: none;
+}
+
+.movie-holder .movie-content li {
+  padding-bottom: 3px;
+  line-height: 16px;
+}
+.movie-holder .movie-content li p {
+  margin: 0;
+  float: left;
+  text-wrap: none;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.movie-holder .movie-synopsys {
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 20px;
+}
+
+#sidebar-second .view-content img, #sidebar-second .book_ticket {
+  margin: 0 auto;
+}
+
+.view-id-related_movies .views-row {
+  margin-bottom: 25px;
+}
+
+.field-name-field-sub-header {
+background-color: #181818;
+padding: 30px;
+color: wheat;
+}

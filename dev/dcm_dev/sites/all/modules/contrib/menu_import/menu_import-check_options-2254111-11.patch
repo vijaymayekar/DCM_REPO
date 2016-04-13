@@ -1,0 +1,15 @@
+diff --git a/includes/export.inc b/includes/export.inc
+index 2e4ac4c..50a463c 100644
+--- a/includes/export.inc
++++ b/includes/export.inc
+@@ -172,8 +172,8 @@ function _menu_import_export_recurse($tree, $level, &$output) {
+       if (!empty($details['description'])) {
+         unset($link['options']['attributes']['title']);
+       }
+-      if (empty($link['options']['attributes'])) {
+-         unset($link['options']['attributes']);
++      if (isset($link['options']['attributes']) && empty($link['options']['attributes'])) {
++        unset($link['options']['attributes']);
+       }
+       if (!empty($link['options'])) {
+         $link['options'] = unserialize($link['options']);

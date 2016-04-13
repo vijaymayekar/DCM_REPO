@@ -1,0 +1,15 @@
+Demo:
+1. Enable Theme and Site related Configuration using Simple feature - explanation dependencies  - Demo on site 2
+2. Enable content Type and Fields feature - Content Types, Fields etc - Demo on site 2
+3. Enable Deploy Modules Feature - Deploy module, Service, UUID Path 
+4. Deploy Content with Path aliases - Demo site 1 to site 2
+5. Features for Views/ Menu  etc - Demo : enable features on site 2 
+6. Export / import menu: Demo 
+6. Features extra for blocks as per regions - Demo 2
+
+
+http://192.168.16.118:96/ local.dev.drupal7cm.com
+
+http://192.168.16.118:97/ local.stage.drupal7cm.com
+
+admin / admindcm7

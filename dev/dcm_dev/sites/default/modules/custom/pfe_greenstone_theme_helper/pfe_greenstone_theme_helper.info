@@ -1,0 +1,4 @@
+name = Pfizer Greenstone Theme Helper Module
+description = Pfizer Greenstone
+core = 7.x
+project = "pfizer_greenstone"

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Mysite Services feature.
+ */
+
+include_once 'mysite_services.features.inc';
